@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="787b2dde-ca3e-4673-a359-db3397ac86dc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/app/Http/Controllers/PostController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forum/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/forum/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/forum/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/forum/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/forum/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/resources/js/Pages/Posts/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/forum/resources/js/Pages/Posts/Index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,6 +166,17 @@
       <path value="$PROJECT_DIR$/forum/vendor/spatie/laravel-ignition" />
       <path value="$PROJECT_DIR$/forum/vendor/dflydev/dot-access-data" />
       <path value="$PROJECT_DIR$/forum/vendor/dasprid/enum" />
+      <path value="$PROJECT_DIR$/forum/vendor/phpstan/phpstan" />
+      <path value="$PROJECT_DIR$/forum/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/forum/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/forum/vendor/spatie/ray" />
+      <path value="$PROJECT_DIR$/forum/vendor/spatie/macroable" />
+      <path value="$PROJECT_DIR$/forum/vendor/spatie/laravel-ray" />
+      <path value="$PROJECT_DIR$/forum/vendor/rector/rector" />
+      <path value="$PROJECT_DIR$/forum/vendor/pimple/pimple" />
+      <path value="$PROJECT_DIR$/forum/vendor/zbateson/mb-wrapper" />
+      <path value="$PROJECT_DIR$/forum/vendor/zbateson/mail-mime-parser" />
+      <path value="$PROJECT_DIR$/forum/vendor/zbateson/stream-decorators" />
     </include_path>
   </component>
   <component name="ProblemsViewState">
@@ -195,7 +211,11 @@
       <recent name="C:\laragon\www\Forum-with-Laravel\forum\tests\Feature\Jetstream" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Pest.Main">
+    <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner configuration_file="$PROJECT_DIR$/forum/phpunit.xml" scope="XML" use_alternative_configuration_file="true" />
+      <method v="2" />
+    </configuration>
     <configuration name="Main" type="PestRunConfigurationType">
       <option name="pestRunnerSettings">
         <PestRunner configuration_file="$PROJECT_DIR$/forum/phpunit.xml" scope="ConfigurationFile" use_alternative_configuration_file="true" />
@@ -223,7 +243,7 @@
       <updated>1706540859166</updated>
       <workItem from="1706540860238" duration="1271000" />
       <workItem from="1706542366642" duration="2186000" />
-      <workItem from="1706601242455" duration="14553000" />
+      <workItem from="1706601242455" duration="18854000" />
     </task>
     <servers />
   </component>

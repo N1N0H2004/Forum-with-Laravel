@@ -151,11 +151,27 @@
       <path value="$PROJECT_DIR$/forum/vendor/spatie/laravel-ignition" />
       <path value="$PROJECT_DIR$/forum/vendor/dflydev/dot-access-data" />
       <path value="$PROJECT_DIR$/forum/vendor/dasprid/enum" />
+      <path value="$PROJECT_DIR$/forum/vendor/phpstan/phpstan" />
+      <path value="$PROJECT_DIR$/forum/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/forum/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/forum/vendor/spatie/ray" />
+      <path value="$PROJECT_DIR$/forum/vendor/spatie/macroable" />
+      <path value="$PROJECT_DIR$/forum/vendor/spatie/laravel-ray" />
+      <path value="$PROJECT_DIR$/forum/vendor/rector/rector" />
+      <path value="$PROJECT_DIR$/forum/vendor/pimple/pimple" />
+      <path value="$PROJECT_DIR$/forum/vendor/zbateson/mb-wrapper" />
+      <path value="$PROJECT_DIR$/forum/vendor/zbateson/mail-mime-parser" />
+      <path value="$PROJECT_DIR$/forum/vendor/zbateson/stream-decorators" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />
   <component name="PhpStanOptionsConfiguration">
     <option name="transferred" value="true" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings configuration_file_path="$PROJECT_DIR$/forum/phpunit.xml" custom_loader_path="$PROJECT_DIR$/forum/vendor/autoload.php" paratest_path="$PROJECT_DIR$/forum/vendor/bin/paratest_for_phpstorm" use_configuration_file="true" />
+    </phpunit_settings>
   </component>
   <component name="PsalmOptionsConfiguration">
     <option name="transferred" value="true" />
