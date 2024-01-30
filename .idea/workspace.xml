@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="787b2dde-ca3e-4673-a359-db3397ac86dc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/database/factories/CommentFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/database/factories/CommentFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/database/factories/PostFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/database/factories/PostFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/database/seeders/DatabaseSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +217,7 @@
       <updated>1706540859166</updated>
       <workItem from="1706540860238" duration="1271000" />
       <workItem from="1706542366642" duration="2186000" />
-      <workItem from="1706601242455" duration="5855000" />
+      <workItem from="1706601242455" duration="6854000" />
     </task>
     <servers />
   </component>
