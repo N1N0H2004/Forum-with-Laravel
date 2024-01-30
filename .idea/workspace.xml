@@ -5,22 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="787b2dde-ca3e-4673-a359-db3397ac86dc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/forum/resources/js/Pages/Posts/Index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum/phpunit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/tests/Feature/ApiTokenPermissionsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/tests/Feature/Jetstream/ApiTokenPermissionsTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/tests/Feature/AuthenticationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/tests/Feature/Jetstream/AuthenticationTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/tests/Feature/BrowserSessionsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/tests/Feature/Jetstream/BrowserSessionsTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/tests/Feature/CreateApiTokenTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/tests/Feature/Jetstream/CreateApiTokenTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/tests/Feature/DeleteAccountTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/tests/Feature/Jetstream/DeleteAccountTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/tests/Feature/DeleteApiTokenTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/tests/Feature/Jetstream/DeleteApiTokenTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/tests/Feature/EmailVerificationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/tests/Feature/Jetstream/EmailVerificationTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/tests/Feature/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/tests/Feature/Jetstream/ExampleTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/tests/Feature/PasswordConfirmationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/tests/Feature/Jetstream/PasswordConfirmationTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/tests/Feature/PasswordResetTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/tests/Feature/Jetstream/PasswordResetTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/tests/Feature/ProfileInformationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/tests/Feature/Jetstream/ProfileInformationTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/tests/Feature/RegistrationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/tests/Feature/Jetstream/RegistrationTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/tests/Feature/TwoFactorAuthenticationSettingsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/tests/Feature/Jetstream/TwoFactorAuthenticationSettingsTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/tests/Feature/UpdatePasswordTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/tests/Feature/Jetstream/UpdatePasswordTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/app/Http/Controllers/ControllerPost.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/resources/js/Layouts/AppLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/forum/resources/js/Layouts/AppLayout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/tests/TestCase.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +224,7 @@
       <updated>1706540859166</updated>
       <workItem from="1706540860238" duration="1271000" />
       <workItem from="1706542366642" duration="2186000" />
-      <workItem from="1706601242455" duration="7975000" />
+      <workItem from="1706601242455" duration="11584000" />
     </task>
     <servers />
   </component>
