@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="787b2dde-ca3e-4673-a359-db3397ac86dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/forum/resources/js/Pages/Posts/Index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/app/Http/Controllers/ControllerPost.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/app/Http/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/resources/js/Layouts/AppLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/forum/resources/js/Layouts/AppLayout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/app/Providers/AppServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forum/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/tests/TestCase.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,6 +176,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Pest.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -224,7 +223,7 @@
       <updated>1706540859166</updated>
       <workItem from="1706540860238" duration="1271000" />
       <workItem from="1706542366642" duration="2186000" />
-      <workItem from="1706601242455" duration="11584000" />
+      <workItem from="1706601242455" duration="14553000" />
     </task>
     <servers />
   </component>

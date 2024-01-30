@@ -35,3 +35,5 @@ Route::middleware([
 });
 
 Route::get('posts', [\App\Http\Controllers\PostController::class, 'index'])->name('posts.index');
+
+
