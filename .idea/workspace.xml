@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="787b2dde-ca3e-4673-a359-db3397ac86dc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/tests/Feature/Controllers/IndexTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/tests/Feature/Controllers/IndexTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/tests/Feature/Controllers/IndexTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/tests/Feature/Controllers/PostController/IndexTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,6 +203,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\Forum-with-Laravel\forum\tests\Feature\Controllers\PostController" />
       <recent name="C:\laragon\www\Forum-with-Laravel\forum\tests\Feature\Jetstream" />
     </key>
   </component>
@@ -237,7 +239,7 @@
       <updated>1706540859166</updated>
       <workItem from="1706540860238" duration="1271000" />
       <workItem from="1706542366642" duration="2186000" />
-      <workItem from="1706601242455" duration="21278000" />
+      <workItem from="1706601242455" duration="24235000" />
     </task>
     <servers />
   </component>
