@@ -7,8 +7,12 @@
     <list default="true" id="787b2dde-ca3e-4673-a359-db3397ac86dc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forum/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/app/Http/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/tests/Feature/Controllers/IndexTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/tests/Feature/Controllers/PostController/IndexTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/database/factories/PostFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/database/factories/PostFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/forum/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/forum/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/resources/js/Components/Container.vue" beforeDir="false" afterPath="$PROJECT_DIR$/forum/resources/js/Components/Container.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/resources/js/Pages/Posts/Show.vue" beforeDir="false" afterPath="$PROJECT_DIR$/forum/resources/js/Pages/Posts/Show.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/tests/Feature/Controllers/PostController/ShowTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/tests/Feature/Controllers/PostController/ShowTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,22 +189,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Pest.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/laragon/www/Forum-with-Laravel",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PhpStorm 2023.3.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Pest.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/laragon/www/Forum-with-Laravel&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\PhpStorm 2023.3.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\laragon\www\Forum-with-Laravel\forum\tests\Feature\Controllers\PostController" />
@@ -215,9 +219,6 @@
     <configuration name="Main" type="PestRunConfigurationType">
       <option name="pestRunnerSettings">
         <PestRunner configuration_file="$PROJECT_DIR$/forum/phpunit.xml" scope="ConfigurationFile" use_alternative_configuration_file="true" />
-      </option>
-      <option name="runnerSettings">
-        <PhpTestRunnerSettings configuration_file="$PROJECT_DIR$/forum/phpunit.xml" scope="ConfigurationFile" use_alternative_configuration_file="true" />
       </option>
       <method v="2" />
     </configuration>
@@ -240,6 +241,8 @@
       <workItem from="1706540860238" duration="1271000" />
       <workItem from="1706542366642" duration="2186000" />
       <workItem from="1706601242455" duration="24235000" />
+      <workItem from="1706686654875" duration="386000" />
+      <workItem from="1706687633267" duration="4318000" />
     </task>
     <servers />
   </component>
