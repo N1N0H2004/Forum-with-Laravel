@@ -13,15 +13,12 @@
 
                 <ul class="mt-4">
                     <li v-for="comment in comments.data" :key="comment.id" class="px-2 py-4">
-
-                            <span class="sm">{{ comment.body }}</span>
-<!--                            <span class="block pt-1 text-sm text-gray-600"> By {{ comment.user.name }}</span>-->
-
+                        <Comment :comment="comment" />
 
                     </li>
                 </ul>
 
-<!--                <Pagination :meta="comments.meta"/>-->
+                <Pagination :meta="comments.meta"/>
             </div>
         </container>
     </AppLayout>
@@ -36,14 +33,12 @@ import Container from "@/Components/Container.vue";
 import Pagination from "@/Components/Pagination.vue";
 import {formatDistance, parseISO} from "date-fns";
 import {Link} from "@inertiajs/vue3";
-import * as comments from "autoprefixer";
 import {relativeDate} from "@/Utilities/date.js";
+import Comment from "@/Components/Comment.vue";
 
 
 const props = defineProps(['post', 'comments']);
 
-// const formattedDate = (post) => {
-//     return formatDistance(parseISO(post.created_at), new Date());
-// }
+
 const formattedDate = computed(() =>relativeDate(props.post.created_at));
 </script>

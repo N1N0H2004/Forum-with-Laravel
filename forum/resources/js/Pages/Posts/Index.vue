@@ -9,7 +9,6 @@
                     </Link>
                 </li>
             </ul>
-{{ posts.meta }}
             <Pagination :meta="posts.meta"/>
         </Container>
     </AppLayout>

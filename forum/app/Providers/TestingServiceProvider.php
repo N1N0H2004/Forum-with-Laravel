@@ -23,12 +23,11 @@ class TestingServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        // If we are not running in the testing environment...
-        if(! $this->app->runningUnitTests()) {
+        if (! $this->app->runningUnitTests()) {
             return;
         }
 
-        AssertableInertia::macro('hasResource', function (string $key, jsonResource $resource) {
+        AssertableInertia::macro('hasResource', function (string $key, JsonResource $resource) {
             $this->has($key);
             expect($this->prop($key))->toEqual($resource->response()->getData(true));
 
@@ -36,19 +35,17 @@ class TestingServiceProvider extends ServiceProvider
         });
 
         AssertableInertia::macro('hasPaginatedResource', function (string $key, ResourceCollection $resource) {
-
             $this->hasResource("{$key}.data", $resource);
             expect($this->prop($key))->toHaveKeys(['data', 'links', 'meta']);
 
             return $this;
         });
 
-
-        TestResponse::macro('assertHasResource', function(string $key, JsonResource $resource) {
+        TestResponse::macro('assertHasResource', function (string $key, JsonResource $resource) {
             return $this->assertInertia(fn (AssertableInertia $inertia) => $inertia->hasResource($key, $resource));
         });
 
-        TestResponse::macro('assertHasPaginatedResource', function(string $key, ResourceCollection $resource) {
+        TestResponse::macro('assertHasPaginatedResource', function (string $key, ResourceCollection $resource) {
             return $this->assertInertia(fn (AssertableInertia $inertia) => $inertia->hasPaginatedResource($key, $resource));
         });
 
