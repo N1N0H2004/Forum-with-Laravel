@@ -28,5 +28,5 @@ it('passes a comment to the view', function() {
     $comments->load('user');
 
     get(route('posts.show', $post))
-        ->assertHasPaginatedResource('comments', CommentResource::collection($comments->reverse()));
+        ->assertHasPaginatedResource('comments', CommentResource::collection($comments));
 });
