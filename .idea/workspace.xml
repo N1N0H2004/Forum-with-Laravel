@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="787b2dde-ca3e-4673-a359-db3397ac86dc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/app/Http/Controllers/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/app/Http/Controllers/CommentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/resources/js/Components/Comment.vue" beforeDir="false" afterPath="$PROJECT_DIR$/forum/resources/js/Components/Comment.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/resources/js/Components/Welcome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/forum/resources/js/Components/Welcome.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/resources/js/Pages/Posts/Show.vue" beforeDir="false" afterPath="$PROJECT_DIR$/forum/resources/js/Pages/Posts/Show.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/resources/js/Pages/Welcome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/forum/resources/js/Pages/Welcome.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/tests/Feature/Controllers/CommentController/StoreTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/tests/Feature/Controllers/CommentController/StoreTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,7 +243,7 @@
       <workItem from="1706686654875" duration="386000" />
       <workItem from="1706687633267" duration="23983000" />
       <workItem from="1706772466671" duration="1268000" />
-      <workItem from="1706773854102" duration="5525000" />
+      <workItem from="1706773854102" duration="6232000" />
     </task>
     <servers />
   </component>
