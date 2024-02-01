@@ -35,11 +35,10 @@ class CommentController extends Controller
 
     public function update(Request $request, Comment $comment)
     {
-
         $data = $request->validate(['body' => ['required', 'string', 'max:2500']]);
 
         $comment->update($data);
 
-        return to_route('posts.show', ['post' => $comment->post_id]);
+        return to_route('posts.show', ['post' => $comment->post_id, 'page' => $request->query('page')]);
     }
 }

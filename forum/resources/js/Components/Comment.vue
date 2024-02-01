@@ -6,9 +6,12 @@
         <div class="flex-1">
             <p class="mt-1 break-all">{{ comment.body }}</p>
             <span class="first-letter:uppercase block pt-1 text-xs text-gray-600">By {{ comment.user.name }} {{ relativeDate(comment.created_at) }} ago</span>
-            <div class="mt-2 text-right empty:hidden">
+            <div class="mt-2 flex justify-end space-x-3 empty:hidden">
+                <form v-if="comment.can?.update" @submit.prevent="$emit('edit', comment.id)">
+                    <button class="font-mono text-s hover:font-semibold">Edit</button>
+                </form>
                 <form v-if="comment.can?.delete" @submit.prevent="$emit('delete', comment.id)">
-                    <button class="font-mono text-red-700 text-xs hover:font-semibold">Delete</button>
+                    <button class="font-mono text-red-700 text-s hover:font-semibold">Delete</button>
                 </form>
             </div>
         </div>
@@ -22,7 +25,7 @@ import {computed} from "vue";
 
 const props = defineProps(['comment']);
 
-const emit = defineEmits(['delete'])
+const emit = defineEmits(['edit', 'delete'])
 
 
 
