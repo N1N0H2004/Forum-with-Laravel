@@ -15,9 +15,19 @@ class CommentController extends Controller
         Comment::create([
             ...$data,
             'post_id' => $post->id,
-            'user_id' => $request->user()->id
+            'user_id' => $request->user()->id,
             ]);
 
         return to_route('posts.show', $post);
+    }
+
+    public function destroy (Request $request, Comment $comment) {
+        if ($request->user()->id !== $comment->user_id) {
+            abort(403);
+        }
+
+        $comment->delete();
+
+        return to_route('posts.show', $comment->post_id);
     }
 }
