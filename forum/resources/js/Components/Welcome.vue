@@ -12,8 +12,9 @@ import ApplicationLogo from '@/Components/ApplicationLogo.vue';
             </h1>
 
             <p class="mt-6 text-gray-500 leading-relaxed">
-                This forum is intended for Ninoh van Dijke's internship. This is for learning purposes only.            </p>
+                This forum is intended for Ninoh van Dijke's internship. This is for learning purposes only.</p>
         </div>
+
 
     </div>
 </template>

@@ -15,7 +15,9 @@ use Inertia\Inertia;
 |
 */
 
+
 Route::get('/', function () {
+
     return Inertia::render('Welcome', [
         'canPosts' => Route::has('posts.index'),
         'canLogin' => Route::has('login'),
@@ -34,9 +36,8 @@ Route::middleware([
         return Inertia::render('Dashboard');
     })->name('dashboard');
 
-    Route::post('posts/{post}/comments', [\App\Http\Controllers\CommentController::class, 'store'])->name('posts.comments.store');
-    Route::delete('comments/{comment}', [\App\Http\Controllers\CommentController::class, 'destroy'])->name('comments.destroy');
-
+    Route::resource('posts.comments', \App\Http\Controllers\CommentController::class)->shallow()->only(['store', 'update', 'destroy']);
+//
 });
 
 Route::get('posts', [\App\Http\Controllers\PostController::class, 'index'])->name('posts.index');
