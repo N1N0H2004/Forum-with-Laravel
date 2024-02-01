@@ -21,10 +21,9 @@ class CommentController extends Controller
         return to_route('posts.show', $post);
     }
 
-    public function destroy (Request $request, Comment $comment) {
-        if ($request->user()->id !== $comment->user_id) {
-            abort(403);
-        }
+    public function destroy(Request $request, Comment $comment)
+    {
+        $this->authorize('delete', $comment);
 
         $comment->delete();
 
