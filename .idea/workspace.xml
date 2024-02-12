@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="787b2dde-ca3e-4673-a359-db3397ac86dc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/resources/js/Components/ConfirmationModalWrapper.vue" beforeDir="false" afterPath="$PROJECT_DIR$/forum/resources/js/Components/ConfirmationModalWrapper.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/resources/js/Layouts/AppLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/forum/resources/js/Layouts/AppLayout.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/resources/js/Pages/Posts/Show.vue" beforeDir="false" afterPath="$PROJECT_DIR$/forum/resources/js/Pages/Posts/Show.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,31 +184,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Pest.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Pest.ShowTest.php.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/LARAVEL/examen-sd-c21-N1N0H2004/.github/examen2024&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\PhpStorm 2023.3.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Pest.Main.executor": "Run",
+    "Pest.PostController.executor": "Run",
+    "Pest.ShowTest.php.executor": "Run",
+    "Pest.StoreTest.php.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/LARAVEL/examen-sd-c21-N1N0H2004/.github/examen2024",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PhpStorm 2023.3.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\laragon\www\Forum-with-Laravel\forum\tests\Feature\Controllers\PostController" />
       <recent name="C:\laragon\www\Forum-with-Laravel\forum\tests\Feature\Jetstream" />
     </key>
   </component>
-  <component name="RunManager" selected="Pest.Main">
+  <component name="RunManager">
     <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner configuration_file="$PROJECT_DIR$/forum/phpunit.xml" scope="XML" use_alternative_configuration_file="true" />
       <method v="2" />
@@ -223,6 +224,20 @@
       </option>
       <method v="2" />
     </configuration>
+    <configuration name="PostController" type="PestRunConfigurationType" temporary="true">
+      <option name="pestRunnerSettings">
+        <PestRunner directory="$PROJECT_DIR$/forum/tests/Feature/Controllers/PostController" />
+      </option>
+      <option name="runnerSettings">
+        <PhpTestRunnerSettings directory="$PROJECT_DIR$/forum/tests/Feature/Controllers/PostController" />
+      </option>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Pest.PostController" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -249,7 +264,7 @@
       <workItem from="1706859387984" duration="15329000" />
       <workItem from="1707121113139" duration="8882000" />
       <workItem from="1707216773497" duration="616000" />
-      <workItem from="1707726864155" duration="8160000" />
+      <workItem from="1707726864155" duration="11658000" />
     </task>
     <servers />
   </component>
