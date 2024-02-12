@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="787b2dde-ca3e-4673-a359-db3397ac86dc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/app/Http/Controllers/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/app/Http/Controllers/CommentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/resources/js/Components/Banner.vue" beforeDir="false" afterPath="$PROJECT_DIR$/forum/resources/js/Components/Banner.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/resources/js/Pages/Posts/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/forum/resources/js/Pages/Posts/Index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/resources/js/Components/ConfirmationModalWrapper.vue" beforeDir="false" afterPath="$PROJECT_DIR$/forum/resources/js/Components/ConfirmationModalWrapper.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/resources/js/Layouts/AppLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/forum/resources/js/Layouts/AppLayout.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forum/resources/js/Pages/Posts/Show.vue" beforeDir="false" afterPath="$PROJECT_DIR$/forum/resources/js/Pages/Posts/Show.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -251,7 +249,7 @@
       <workItem from="1706859387984" duration="15329000" />
       <workItem from="1707121113139" duration="8882000" />
       <workItem from="1707216773497" duration="616000" />
-      <workItem from="1707726864155" duration="2726000" />
+      <workItem from="1707726864155" duration="8160000" />
     </task>
     <servers />
   </component>
@@ -275,16 +273,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/forum/resources/js/Pages/Posts/Show.vue</url>
-          <line>38</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/forum/resources/js/Pages/Posts/Show.vue</url>
-          <line>41</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/forum/resources/js/Components/Banner.vue</url>
           <line>12</line>
