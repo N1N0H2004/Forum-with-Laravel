@@ -7,8 +7,9 @@
     <list default="true" id="787b2dde-ca3e-4673-a359-db3397ac86dc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forum/app/Http/Controllers/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/app/Http/Controllers/CommentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/app/Http/Resources/CommentResource.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/app/Http/Resources/CommentResource.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/resources/js/Components/Comment.vue" beforeDir="false" afterPath="$PROJECT_DIR$/forum/resources/js/Components/Comment.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/resources/js/Components/Banner.vue" beforeDir="false" afterPath="$PROJECT_DIR$/forum/resources/js/Components/Banner.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/resources/js/Pages/Posts/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/forum/resources/js/Pages/Posts/Index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forum/resources/js/Pages/Posts/Show.vue" beforeDir="false" afterPath="$PROJECT_DIR$/forum/resources/js/Pages/Posts/Show.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -189,10 +190,11 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Pest.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.ShowTest.php.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/laragon/www/Forum-with-Laravel&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/LARAVEL/examen-sd-c21-N1N0H2004/.github/examen2024&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -245,7 +247,11 @@
       <workItem from="1706686654875" duration="386000" />
       <workItem from="1706687633267" duration="23983000" />
       <workItem from="1706772466671" duration="1268000" />
-      <workItem from="1706773854102" duration="21980000" />
+      <workItem from="1706773854102" duration="26193000" />
+      <workItem from="1706859387984" duration="15329000" />
+      <workItem from="1707121113139" duration="8882000" />
+      <workItem from="1707216773497" duration="616000" />
+      <workItem from="1707726864155" duration="2726000" />
     </task>
     <servers />
   </component>
@@ -271,20 +277,34 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/forum/resources/js/Pages/Posts/Show.vue</url>
-          <line>39</line>
-          <properties lambdaOrdinal="-1" />
+          <line>38</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/forum/resources/js/Pages/Posts/Show.vue</url>
           <line>41</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/forum/resources/js/Components/Banner.vue</url>
+          <line>12</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/forum/tests/Feature/Controllers/CommentController/UpdateTest.php</url>
           <line>47</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/forum/database/seeders/DatabaseSeeder.php</url>
+          <line>5</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="php">
+          <url>file://$PROJECT_DIR$/forum/app/Models/Post.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

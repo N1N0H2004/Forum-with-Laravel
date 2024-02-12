@@ -23,7 +23,7 @@ class DatabaseSeeder extends Seeder
 
          $comments = Comment::factory(100)->recycle($users)->recycle($posts)->create();
 
-        $ninoh= \App\Models\User::factory()
+         $ninoh= \App\Models\User::factory()
                                 ->has(Post::factory(45))
                                 ->has(Comment::factory(120)->recycle($posts))
                                 ->create([
