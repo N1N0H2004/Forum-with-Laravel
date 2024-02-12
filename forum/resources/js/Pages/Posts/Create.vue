@@ -12,8 +12,8 @@
                 </div>
 
                 <div>
-                    <InputLabel for="body" class="sr-only">Title</InputLabel>
-                    <textArea id="body" class="w-full" v-model="form.body" rows="25"></textArea>
+                    <InputLabel for="body" class="sr-only mt-2">Title</InputLabel>
+                    <textArea id="body" class="w-full mt-3 rounded" v-model="form.body" rows="10"></textArea>
                     <InputError :message="form.errors.title" class="mt-1"></InputError>
                 </div>
 

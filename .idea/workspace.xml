@@ -6,7 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="787b2dde-ca3e-4673-a359-db3397ac86dc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/tests/Feature/Controllers/PostController/CreateTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/tests/Feature/Controllers/PostController/CreateTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/app/Http/Middleware/HandleInertiaRequests.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/app/Http/Middleware/HandleInertiaRequests.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/app/Models/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/resources/js/Layouts/AppLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/forum/resources/js/Layouts/AppLayout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/resources/js/Pages/Posts/Create.vue" beforeDir="false" afterPath="$PROJECT_DIR$/forum/resources/js/Pages/Posts/Create.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/tests/Feature/Controllers/PostController/StoreTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/tests/Feature/Controllers/PostController/StoreTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,6 +193,7 @@
     "Pest.CreateTest.php.executor": "Run",
     "Pest.Main.executor": "Run",
     "Pest.PostController.executor": "Run",
+    "Pest.PostTest.php.executor": "Run",
     "Pest.ShowTest.php.executor": "Run",
     "Pest.StoreTest.php.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -264,7 +270,7 @@
       <workItem from="1706859387984" duration="15329000" />
       <workItem from="1707121113139" duration="8882000" />
       <workItem from="1707216773497" duration="616000" />
-      <workItem from="1707726864155" duration="15381000" />
+      <workItem from="1707726864155" duration="18599000" />
     </task>
     <servers />
   </component>
